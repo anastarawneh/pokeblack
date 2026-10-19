@@ -29,6 +29,7 @@ MAKELCF_FLAGS   = \
     -DOBJS_AUTOLOAD=''
 
 include common.mk
+include filesystem.mk
 
 ifeq ($(GAME_VERSION),WHITE)
 BASEROM        := baserom_white.nds
@@ -87,7 +88,7 @@ tidy:
 	@$(MAKE) -C $(SUB_DIR) tidy
 	$(RM) -r $(BUILD_DIR)
 
-clean: tidy clean-tools
+clean: tidy clean-filesystem clean-tools
 	@$(MAKE) -C $(SUB_DIR) clean
 
 compare: ; @$(MAKE) COMPARE=1
@@ -141,7 +142,7 @@ $(PACKED_ARM9): $(SBIN) $(OVL_POLICY)
 $(BANNER): $(BANNER_DIR)/banner.meta $(wildcard $(BANNER_DIR)/*.png)
 	@$(PYTHON) $(SCRIPTS)/banner.py build --dir $(BANNER_DIR) -o $@
 
-$(ROM): $(PACKED_ARM9) sub $(BANNER)
+$(ROM): $(PACKED_ARM9) filesystem sub $(BANNER)
 	@$(PYTHON) $(SCRIPTS)/make_rom.py --build $(BUILD_DIR) \
 		--header $(HEADER_TEMPLATE) --fnt $(FNT) --twl-tail $(TWL_TAIL) \
 		--overlays $(PACKED_DIR) --arm9 $(PACKED_ARM9) --arm7 $(SUB_SBIN) \

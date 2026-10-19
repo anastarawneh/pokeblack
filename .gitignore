@@ -43,6 +43,7 @@ ndstool
 tools/README.md
 !tools/scripts/
 tools/metroskrew/**
+tools/dataproc/*proc
 
 # Proprietary SDK (cannot distribute)
 lib/NitroSDK/
