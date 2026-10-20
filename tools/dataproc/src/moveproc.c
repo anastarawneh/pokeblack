@@ -8,6 +8,7 @@
 #include "libenum.h"
 #include "nitroarc.h"
 
+#include "constants/move_classes.h"
 #include "struct_defs/move.h"
 
 static const char *enumFile = NULL;
@@ -86,6 +87,31 @@ static void ProcMove(dp_node root) {
 
     for (dp_each(flag, i, dp_at(root, ".flags"))) {
         data.flags |= dp_u16(dp_lookup(flag, L_MOVE_FLAG));
+    }
+
+    if (data.accuracy > 101) {
+        dp_warn(dp_at(root, ".accuracy"), "value is greater than 101 and will be clamped to 100");
+        data.accuracy = 100;
+    }
+
+    if (data.statusChance > 100) {
+        dp_warn(dp_at(root, ".statusChance"), "value is greater than 100 and will be clamped");
+        data.statusChance = 100;
+    }
+
+    if (data.flinchChance > 100) {
+        dp_warn(dp_at(root, ".flinchChance"), "value is greater than 100 and will be clamped");
+        data.flinchChance = 100;
+    }
+
+    if (data.minHits > data.maxHits) {
+        dp_warn(dp_at(root, ".minHits"), "value is greater than maxHits and will be clamped");
+        data.minHits = data.maxHits;
+    }
+
+    if (data.minTurns > data.maxTurns) {
+        dp_warn(dp_at(root, ".minTurns"), "value is greater than maxTurns and will be clamped");
+        data.minTurns = data.maxTurns;
     }
 
     Archive_Pack(A_MOVE_DATA, &data, sizeof(data));
