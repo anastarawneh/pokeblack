@@ -19,6 +19,6 @@
     "recoveryByDamage": 0,
     "recoveryByMaxHP": 0,
     "range": "RANGE_USER",
-    "statChanges": [[3, 2, 0]],
+    "statChanges": [["STAT_SP_ATTACK", 2, 0]],
     "flags": ["MOVE_FLAG_AFFECTED_BY_SNATCH"]
 }

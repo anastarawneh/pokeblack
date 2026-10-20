@@ -19,6 +19,6 @@
     "recoveryByDamage": 0,
     "recoveryByMaxHP": 0,
     "range": "RANGE_ADJACENT_OPPONENTS",
-    "statChanges": [[4, -1, 10]],
+    "statChanges": [["STAT_SP_DEFENSE", -1, 10]],
     "flags": ["MOVE_FLAG_AFFECTED_BY_PROTECT", "MOVE_FLAG_CALLABLE_BY_MIRROR_MOVE"]
 }

@@ -21,6 +21,7 @@ enum { A_MOVE_DATA };
 #define L_MOVE_FLAG     "enum MoveFlag"
 #define L_MOVE_RANGE    "enum MoveRange"
 #define L_MOVE_STATUS   "enum MoveStatus"
+#define L_STAT          "enum Stat"
 #define L_TYPE          "enum Type"
 
 static Driver driver = {
@@ -39,6 +40,7 @@ static Driver driver = {
         LOOKUP_ENUM("constants/move_flags.h",      L_MOVE_FLAG),
         LOOKUP_ENUM("constants/move_ranges.h",     L_MOVE_RANGE),
         LOOKUP_ENUM("constants/move_status.h",     L_MOVE_STATUS),
+        LOOKUP_ENUM("constants/pokemon.h",         L_STAT),
         LOOKUP_ENUM("constants/pokemon.h",         L_TYPE),
         { 0 }
     },
@@ -77,7 +79,7 @@ static void ProcMove(dp_node root) {
     };
 
     for (dp_each(statChange, i, dp_at(root, ".statChanges"))) {
-        data.stats[i] = dp_u8(dp_arr_at(statChange, 0));
+        data.stats[i] = dp_u8(dp_lookup(dp_arr_at(statChange, 0), L_STAT));
         data.statChanges[i] = dp_s8(dp_arr_at(statChange, 1));
         data.statChangeChances[i] = dp_u8(dp_arr_at(statChange, 2));
     }

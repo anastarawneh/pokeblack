@@ -19,6 +19,6 @@
     "recoveryByDamage": 0,
     "recoveryByMaxHP": 0,
     "range": "RANGE_SINGLE_TARGET",
-    "statChanges": [[1, 1, 20]],
+    "statChanges": [["STAT_ATTACK", 1, 20]],
     "flags": ["MOVE_FLAG_MAKES_CONTACT", "MOVE_FLAG_AFFECTED_BY_PROTECT", "MOVE_FLAG_CALLABLE_BY_MIRROR_MOVE", "MOVE_FLAG_PUNCHING"]
 }

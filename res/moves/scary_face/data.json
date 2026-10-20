@@ -19,6 +19,6 @@
     "recoveryByDamage": 0,
     "recoveryByMaxHP": 0,
     "range": "RANGE_SINGLE_TARGET",
-    "statChanges": [[5, -2, 0]],
+    "statChanges": [["STAT_SPEED", -2, 0]],
     "flags": ["MOVE_FLAG_AFFECTED_BY_PROTECT", "MOVE_FLAG_AFFECTED_BY_MAGIC_COAT", "MOVE_FLAG_CALLABLE_BY_MIRROR_MOVE"]
 }
