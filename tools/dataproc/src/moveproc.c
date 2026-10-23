@@ -8,7 +8,7 @@
 #include "libenum.h"
 #include "nitroarc.h"
 
-#include "constants/move_classes.h"
+#include "constants/moves.h"
 #include "struct_defs/move.h"
 
 static const char *enumFile = NULL;
@@ -35,12 +35,12 @@ static Driver driver = {
     },
 
     .lookups = (Lookup[]) {
-        LOOKUP_ENUM("constants/move_categories.h", L_MOVE_CATEGORY),
-        LOOKUP_ENUM("constants/move_classes.h",    L_MOVE_CLASS),
-        LOOKUP_ENUM("constants/move_durations.h",  L_MOVE_DURATION),
-        LOOKUP_ENUM("constants/move_flags.h",      L_MOVE_FLAG),
-        LOOKUP_ENUM("constants/move_ranges.h",     L_MOVE_RANGE),
-        LOOKUP_ENUM("constants/move_status.h",     L_MOVE_STATUS),
+        LOOKUP_ENUM("constants/moves.h",           L_MOVE_CATEGORY),
+        LOOKUP_ENUM("constants/moves.h",           L_MOVE_CLASS),
+        LOOKUP_ENUM("constants/moves.h",           L_MOVE_DURATION),
+        LOOKUP_ENUM("constants/moves.h",           L_MOVE_FLAG),
+        LOOKUP_ENUM("constants/moves.h",           L_MOVE_RANGE),
+        LOOKUP_ENUM("constants/moves.h",           L_MOVE_STATUS),
         LOOKUP_ENUM("constants/pokemon.h",         L_STAT),
         LOOKUP_ENUM("constants/pokemon.h",         L_TYPE),
         { 0 }
