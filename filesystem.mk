@@ -241,7 +241,7 @@ SRC_ARCS  += $(1)
 DIFF_ARCS += $(2)
 endef
 
-$(eval $(call arc_strip_name,$(BUILD_DIR)/moves.narc,files/a/0/2/1))
+$(eval $(call arc_strip_name,$(BUILD_DIR)/res/moves/moves.narc,files/a/0/2/1))
 
 $(DIFF_ARCS):
 	cp $< $@
