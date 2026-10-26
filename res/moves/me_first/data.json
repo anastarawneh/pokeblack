@@ -1,4 +1,5 @@
 {
+    "name": "Me First",
     "type": "TYPE_NORMAL",
     "category": "MOVE_CATEGORY_DAMAGE",
     "class": "CLASS_STATUS",

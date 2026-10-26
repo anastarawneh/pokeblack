@@ -1,4 +1,5 @@
 {
+    "name": "Rock Polish",
     "type": "TYPE_ROCK",
     "category": "MOVE_CATEGORY_STAT_CHANGE",
     "class": "CLASS_STATUS",

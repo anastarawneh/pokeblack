@@ -1,4 +1,5 @@
 {
+    "name": "Quick Guard",
     "type": "TYPE_FIGHTING",
     "category": "MOVE_CATEGORY_SIDE_FIELD_EFFECT",
     "class": "CLASS_STATUS",

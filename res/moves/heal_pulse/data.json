@@ -1,4 +1,5 @@
 {
+    "name": "Heal Pulse",
     "type": "TYPE_PSYCHIC",
     "category": "MOVE_CATEGORY_RECOVERY",
     "class": "CLASS_STATUS",

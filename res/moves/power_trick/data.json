@@ -1,4 +1,5 @@
 {
+    "name": "Power Trick",
     "type": "TYPE_PSYCHIC",
     "category": "MOVE_CATEGORY_SPECIAL",
     "class": "CLASS_STATUS",

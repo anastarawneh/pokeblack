@@ -1,4 +1,5 @@
 {
+    "name": "Spider Web",
     "type": "TYPE_BUG",
     "category": "MOVE_CATEGORY_SPECIAL",
     "class": "CLASS_STATUS",

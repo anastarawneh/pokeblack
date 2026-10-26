@@ -1,4 +1,5 @@
 {
+    "name": "Spikes",
     "type": "TYPE_GROUND",
     "category": "MOVE_CATEGORY_SIDE_FIELD_EFFECT",
     "class": "CLASS_STATUS",

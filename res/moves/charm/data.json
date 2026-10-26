@@ -1,4 +1,5 @@
 {
+    "name": "Charm",
     "type": "TYPE_NORMAL",
     "category": "MOVE_CATEGORY_STAT_CHANGE",
     "class": "CLASS_STATUS",

@@ -1,4 +1,5 @@
 {
+    "name": "Morning Sun",
     "type": "TYPE_NORMAL",
     "category": "MOVE_CATEGORY_RECOVERY",
     "class": "CLASS_STATUS",

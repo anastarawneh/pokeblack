@@ -1,4 +1,5 @@
 {
+    "name": "Leaf Storm",
     "type": "TYPE_GRASS",
     "category": "MOVE_CATEGORY_DAMAGE_AND_STAT_CHANGE_SELF",
     "class": "CLASS_SPECIAL",

@@ -1,4 +1,5 @@
 {
+    "name": "Curse",
     "type": "TYPE_GHOST",
     "category": "MOVE_CATEGORY_SPECIAL",
     "class": "CLASS_STATUS",

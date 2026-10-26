@@ -1,4 +1,5 @@
 {
+    "name": "Recover",
     "type": "TYPE_NORMAL",
     "category": "MOVE_CATEGORY_RECOVERY",
     "class": "CLASS_STATUS",

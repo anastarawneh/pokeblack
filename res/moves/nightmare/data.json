@@ -1,4 +1,5 @@
 {
+    "name": "Nightmare",
     "type": "TYPE_GHOST",
     "category": "MOVE_CATEGORY_STATUS",
     "class": "CLASS_STATUS",

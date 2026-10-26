@@ -1,4 +1,5 @@
 {
+    "name": "Venoshock",
     "type": "TYPE_POISON",
     "category": "MOVE_CATEGORY_DAMAGE",
     "class": "CLASS_SPECIAL",

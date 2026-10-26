@@ -1,4 +1,5 @@
 {
+    "name": "Heavy Slam",
     "type": "TYPE_STEEL",
     "category": "MOVE_CATEGORY_DAMAGE",
     "class": "CLASS_PHYSICAL",

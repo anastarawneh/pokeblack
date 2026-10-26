@@ -1,4 +1,5 @@
 {
+    "name": "Fusion Flare",
     "type": "TYPE_FIRE",
     "category": "MOVE_CATEGORY_DAMAGE",
     "class": "CLASS_SPECIAL",

@@ -1,4 +1,5 @@
 {
+    "name": "Shadow Punch",
     "type": "TYPE_GHOST",
     "category": "MOVE_CATEGORY_DAMAGE",
     "class": "CLASS_PHYSICAL",

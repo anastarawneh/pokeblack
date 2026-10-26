@@ -1,4 +1,5 @@
 {
+    "name": "Muddy Water",
     "type": "TYPE_WATER",
     "category": "MOVE_CATEGORY_DAMAGE_AND_STAT_CHANGE_TARGET",
     "class": "CLASS_SPECIAL",

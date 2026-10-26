@@ -1,4 +1,5 @@
 {
+    "name": "Night Daze",
     "type": "TYPE_DARK",
     "category": "MOVE_CATEGORY_DAMAGE_AND_STAT_CHANGE_TARGET",
     "class": "CLASS_SPECIAL",

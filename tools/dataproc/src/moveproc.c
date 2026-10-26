@@ -15,6 +15,7 @@ static const char *enumFile = NULL;
 static const char *baseDir  = NULL;
 
 enum { A_MOVE_DATA };
+enum { T_MOVE_NAMES };
 
 #define L_MOVE_CATEGORY "enum MoveCategory"
 #define L_MOVE_CLASS    "enum MoveClass"
@@ -49,6 +50,11 @@ static Driver driver = {
     .outputs = {
         .archives = (Archive[]) {
             [A_MOVE_DATA] = { .filename = "moves.narc" },
+            { 0 }
+        },
+
+        .textBanks = (TextBank[]) {
+            [T_MOVE_NAMES] = { .filename = "move_names.json" },
             { 0 }
         }
     }
@@ -117,11 +123,18 @@ static void ProcMove(dp_node root) {
     Archive_Pack(A_MOVE_DATA, &data, sizeof(data));
 }
 
+static void ProcText(dp_node root, size_t i, const char *stem) {
+    const char *name = dp_string_at(root, ".name");
+    if (name == NULL) return; // error is already staged
+    TextBank_PushString(T_MOVE_NAMES, name, "MoveNames_Text_%s", stem);
+}
+
 int main(int argc, char **argv) {
     Driver_Init(&driver, argc, argv);
 
     for (EachEntry(entry, Entries_FromEnum(enumFile, "Move", "MOVE_", "%s/%s/data.json", baseDir))) {
         ProcMove(entry.root);
+        ProcText(entry.root, entry.index, entry.stem);
     }
 
     return Driver_Finish(&driver);

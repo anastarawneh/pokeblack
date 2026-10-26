@@ -1,4 +1,5 @@
 {
+    "name": "Sheer Cold",
     "type": "TYPE_ICE",
     "category": "MOVE_CATEGORY_OHKO",
     "class": "CLASS_SPECIAL",

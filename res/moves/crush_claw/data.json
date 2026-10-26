@@ -1,4 +1,5 @@
 {
+    "name": "Crush Claw",
     "type": "TYPE_NORMAL",
     "category": "MOVE_CATEGORY_DAMAGE_AND_STAT_CHANGE_TARGET",
     "class": "CLASS_PHYSICAL",

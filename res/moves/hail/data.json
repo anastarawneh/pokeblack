@@ -1,4 +1,5 @@
 {
+    "name": "Hail",
     "type": "TYPE_ICE",
     "category": "MOVE_CATEGORY_ENTIRE_FIELD_EFFECT",
     "class": "CLASS_STATUS",

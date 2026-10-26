@@ -1,4 +1,5 @@
 {
+    "name": "Blizzard",
     "type": "TYPE_ICE",
     "category": "MOVE_CATEGORY_DAMAGE_AND_STATUS",
     "class": "CLASS_SPECIAL",

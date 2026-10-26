@@ -1,4 +1,5 @@
 {
+    "name": "Roar",
     "type": "TYPE_NORMAL",
     "category": "MOVE_CATEGORY_PHAZING",
     "class": "CLASS_STATUS",

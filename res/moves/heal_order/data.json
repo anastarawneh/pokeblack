@@ -1,4 +1,5 @@
 {
+    "name": "Heal Order",
     "type": "TYPE_BUG",
     "category": "MOVE_CATEGORY_RECOVERY",
     "class": "CLASS_STATUS",

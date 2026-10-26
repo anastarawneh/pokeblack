@@ -1,4 +1,5 @@
 {
+    "name": "Dark Void",
     "type": "TYPE_DARK",
     "category": "MOVE_CATEGORY_STATUS",
     "class": "CLASS_STATUS",

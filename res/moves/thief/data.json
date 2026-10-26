@@ -1,4 +1,5 @@
 {
+    "name": "Thief",
     "type": "TYPE_DARK",
     "category": "MOVE_CATEGORY_DAMAGE",
     "class": "CLASS_PHYSICAL",

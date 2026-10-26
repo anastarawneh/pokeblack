@@ -1,4 +1,5 @@
 {
+    "name": "Needle Arm",
     "type": "TYPE_GRASS",
     "category": "MOVE_CATEGORY_DAMAGE",
     "class": "CLASS_PHYSICAL",

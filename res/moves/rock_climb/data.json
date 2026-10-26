@@ -1,4 +1,5 @@
 {
+    "name": "Rock Climb",
     "type": "TYPE_NORMAL",
     "category": "MOVE_CATEGORY_DAMAGE_AND_STATUS",
     "class": "CLASS_PHYSICAL",

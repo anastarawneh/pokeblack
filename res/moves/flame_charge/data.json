@@ -1,4 +1,5 @@
 {
+    "name": "Flame Charge",
     "type": "TYPE_FIRE",
     "category": "MOVE_CATEGORY_DAMAGE_AND_STAT_CHANGE_SELF",
     "class": "CLASS_PHYSICAL",

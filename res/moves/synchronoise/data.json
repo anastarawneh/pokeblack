@@ -1,4 +1,5 @@
 {
+    "name": "Synchronoise",
     "type": "TYPE_PSYCHIC",
     "category": "MOVE_CATEGORY_DAMAGE",
     "class": "CLASS_SPECIAL",

@@ -1,4 +1,5 @@
 {
+    "name": "Drill Run",
     "type": "TYPE_GROUND",
     "category": "MOVE_CATEGORY_DAMAGE",
     "class": "CLASS_PHYSICAL",

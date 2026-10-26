@@ -1,4 +1,5 @@
 {
+    "name": "Rock Throw",
     "type": "TYPE_ROCK",
     "category": "MOVE_CATEGORY_DAMAGE",
     "class": "CLASS_PHYSICAL",

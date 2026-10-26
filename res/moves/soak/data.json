@@ -1,4 +1,5 @@
 {
+    "name": "Soak",
     "type": "TYPE_WATER",
     "category": "MOVE_CATEGORY_SPECIAL",
     "class": "CLASS_STATUS",

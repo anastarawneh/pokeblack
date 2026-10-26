@@ -1,4 +1,5 @@
 {
+    "name": "Blast Burn",
     "type": "TYPE_FIRE",
     "category": "MOVE_CATEGORY_DAMAGE",
     "class": "CLASS_SPECIAL",

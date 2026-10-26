@@ -1,4 +1,5 @@
 {
+    "name": "PoisonPowder",
     "type": "TYPE_POISON",
     "category": "MOVE_CATEGORY_STATUS",
     "class": "CLASS_STATUS",

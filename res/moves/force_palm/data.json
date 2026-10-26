@@ -1,4 +1,5 @@
 {
+    "name": "Force Palm",
     "type": "TYPE_FIGHTING",
     "category": "MOVE_CATEGORY_DAMAGE_AND_STATUS",
     "class": "CLASS_PHYSICAL",

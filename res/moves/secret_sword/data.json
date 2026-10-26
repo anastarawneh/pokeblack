@@ -1,4 +1,5 @@
 {
+    "name": "Secret Sword",
     "type": "TYPE_FIGHTING",
     "category": "MOVE_CATEGORY_DAMAGE",
     "class": "CLASS_SPECIAL",

@@ -1,4 +1,5 @@
 {
+    "name": "Pay Day",
     "type": "TYPE_NORMAL",
     "category": "MOVE_CATEGORY_DAMAGE",
     "class": "CLASS_PHYSICAL",

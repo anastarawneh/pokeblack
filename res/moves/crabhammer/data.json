@@ -1,4 +1,5 @@
 {
+    "name": "Crabhammer",
     "type": "TYPE_WATER",
     "category": "MOVE_CATEGORY_DAMAGE",
     "class": "CLASS_PHYSICAL",

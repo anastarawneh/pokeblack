@@ -1,4 +1,5 @@
 {
+    "name": "Night Shade",
     "type": "TYPE_GHOST",
     "category": "MOVE_CATEGORY_DAMAGE",
     "class": "CLASS_SPECIAL",

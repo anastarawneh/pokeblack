@@ -1,4 +1,5 @@
 {
+    "name": "Sky Drop",
     "type": "TYPE_FLYING",
     "category": "MOVE_CATEGORY_DAMAGE",
     "class": "CLASS_PHYSICAL",
